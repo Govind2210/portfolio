@@ -1,13 +1,9 @@
 import React from "react";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import laundaryCart01 from "../assets/portfolio/laundaryCart01.jpg";
 import tinder from "../assets/portfolio/tinder.png";
 import news from "../assets/portfolio/news.png";
 import jamstackPlus from "../assets/portfolio/jamstackPlus.png";
 import guruMantra from "../assets/portfolio/guruMantra.png"
-// import tradeDissect from "../assets/portfolio/tradeDissect.png"
 import tradeDissect from "../assets/portfolio/tradeDissect.png"
 
 
