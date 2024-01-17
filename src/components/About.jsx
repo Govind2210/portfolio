@@ -14,14 +14,18 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-        A creative and diligent aspiring full-stack developer with a specialization in Mern Stack  development. Self-believing and enthusiastic, with a keen interest in building and designing Backend and Frontend.
-        Looking forward to sharpening my skills in a challenging environment. I guarantee enthusiasm in work and fulfilling my projects with inexpressible efforts.
-        </p>
-        
-        <p className="text-xl mt-7">
-        The web can sometimes be indistinguishable from magic, but I have the knowledge and patience required to make just about anything.
+          Greetings! I'm a creative and diligent full-stack developer,
+          specializing in the MERN stack, with over 1+ years of hands-on
+          experience in the dynamic world of web development. My journey has
+          been shaped by a relentless passion for both backend and frontend
+          design, and I'm eager to take on new challenges to sharpen my skills
+          in a stimulating environment.
         </p>
 
+        <p className="text-xl mt-7">
+          The web can sometimes be indistinguishable from magic, but I have the
+          knowledge and patience required to make just about anything.
+        </p>
       </div>
     </div>
   );

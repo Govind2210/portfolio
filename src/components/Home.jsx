@@ -15,10 +15,13 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I’m an aspiring Full Stack Developer looking for a new role in an exciting company.
-            I am a creative front-end developer based in India. I have hands-on experience in building projects using HTML, CSS, Javascript,
-            and MERN stack. I speacialise in creating interactive experiences using React.
-            
+            Hello there! I'm a passionate and creative front-end developer based
+            in India with over 1+ years of hands-on experience in the
+            ever-evolving realm of web development. My journey began with
+            mastering the fundamentals of HTML, CSS, and JavaScript, StoryBook  and I
+            quickly transitioned into the dynamic world of the MERN stack, where
+            I found my true calling in crafting seamless and interactive
+            experiences with Next JS & Node JS.
           </p>
 
           <div>
@@ -40,7 +43,7 @@ const Home = () => {
           <img
             src={HeroImage}
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-full mx-auto w-2/3 md:w-full"
           />
         </div>
       </div>
