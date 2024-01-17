@@ -1,13 +1,9 @@
 import React from "react";
-import installNode from "../assets/portfolio/installNode.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
 import laundaryCart01 from "../assets/portfolio/laundaryCart01.jpg";
 import tinder from "../assets/portfolio/tinder.png";
 import news from "../assets/portfolio/news.png";
 import jamstackPlus from "../assets/portfolio/jamstackPlus.png";
 import guruMantra from "../assets/portfolio/guruMantra.png"
-// import tradeDissect from "../assets/portfolio/tradeDissect.png"
 import tradeDissect from "../assets/portfolio/tradeDissect.png"
 
 
@@ -49,24 +45,6 @@ const Portfolio = () => {
       name: "News Web App",
       demo : "https://news-app-by-govind-lowanshi.netlify.app"
     },
-    // {
-    //   id: 7,
-    //   src: reactSmooth,
-    //   name: "React Smooth Project",
-    //   demo : ""
-    // },
-    // {
-    //   id: 8,
-    //   src: installNode,
-    //   name: "Installing Node",
-    //   demo : ""
-    // },
-    // {
-    //   id: 9,
-    //   src: reactWeather,
-    //   name: "Weather WebApp",
-    //   demo : ""
-    // }
   ];
 
   return (
@@ -87,7 +65,7 @@ const Portfolio = () => {
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
-                alt="Image"
+                alt="something"
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
@@ -95,7 +73,7 @@ const Portfolio = () => {
                   {name}
                 </div>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  <a href={demo} target="_blank">
+                  <a href={demo} target="_blank" rel="noreferrer">
                     Preview
                   </a>
                 </button>
