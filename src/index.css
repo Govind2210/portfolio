@@ -9,5 +9,22 @@
 @layer base {
   html {
     font-family: 'Raleway', sans-serif;
+    background-color: #1f2937;
   }
+}
+
+
+#main{
+  background-color:  #1f2937;
+}
+
+#cursor {
+  background-color: white;
+  mix-blend-mode: difference;
+  position: absolute;
+  border-radius: 50%;
+  width: 20px; /* Adjust size as needed */
+  height: 20px; /* Adjust size as needed */
+  transition: all linear 0.2s;
+  pointer-events: none; /* Prevent the cursor from blocking mouse events */
 }

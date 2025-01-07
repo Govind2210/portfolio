@@ -5,10 +5,38 @@ import news from "../assets/portfolio/news.png";
 import jamstackPlus from "../assets/portfolio/jamstackPlus.png";
 import guruMantra from "../assets/portfolio/guruMantra.png"
 import tradeDissect from "../assets/portfolio/tradeDissect.png"
+import crepprotect from "../assets/portfolio/crepprotect.png"
+import vishwamitra from "../assets/portfolio/vishwamitra.png"
+import qualitia from "../assets/portfolio/qualitia.png"
+import metafit from "../assets/portfolio/metafit.png"
 
 
 const Portfolio = () => {
   const portfolios = [
+    {
+      id: 7,
+      src: crepprotect,
+      name: "Crepprotect",
+      demo : "https://uk.crepprotect.com/"
+    },
+    {
+      id: 8,
+      src: vishwamitra,
+      name: "Vishwamitra",
+      demo : "https://vishwamitra.app/"
+    },
+    {
+      id: 9,
+      src: qualitia,
+      name: "Qualitia",
+      demo : "https://www.qualitia.ai/"
+    },
+    {
+      id: 10,
+      src: metafit,
+      name: "MetaFit",
+      demo : "https://prod-metafit.setoo.work/en/"
+    },
     {
       id: 1,
       src: jamstackPlus,
@@ -52,7 +80,7 @@ const Portfolio = () => {
       name="portfolio"
       className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full mt-28 mb-4">
         <div className="pb-8 mt-56">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Projects

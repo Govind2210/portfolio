@@ -15,7 +15,7 @@ const About = () => {
 
         <p className="text-xl mt-20">
           Greetings! I'm a creative and diligent full-stack developer,
-          specializing in the MERN stack, with over 1+ years of hands-on
+          specializing in the MERN stack, with over 2+ years of hands-on
           experience in the dynamic world of web development. My journey has
           been shaped by a relentless passion for both backend and frontend
           design, and I'm eager to take on new challenges to sharpen my skills
